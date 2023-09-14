@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card__climate{
+    background-image: url(https://img2.wallspic.com/crops/4/6/1/9/39164/39164-agua-skyscape_de_arte-tranquilidad-la_luz_del_sol-calma-2560x2048.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+.card__global{
+    text-align: center;
+    background: rgba(255,255,255,.6);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0,0,0,.6);
+    margin: 0 1rem;
+}
+.card__icon__info{
+    display: flex;
+    align-items: center;   
+    padding: 0;
+}
+.card__descrip{
+    margin: 1rem 0;
+}
+.card__list{
+    text-align: left;
+    list-style: none;
+}
+.card__button{
+    padding: 0.3rem 1rem;
+    border: none;
+    background: lavender;
+    border-radius: 100vh;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: .3s;
+    margin: 1rem 0;
+}
+.card__button:active{
+    transform: scale(1.1);
+}
+
